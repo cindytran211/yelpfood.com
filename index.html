@@ -3,21 +3,25 @@
         <head>
             <title>Yelp Food Review Page</title>
             <meta name="Yelp Food Review Page" content="Has information about specific foods and their reviews">
+            <link rel="stylesheet" href="styles.css">
         </head>
     <body>
-        <div>
-            <h1 style="text-align: center;">Yelp Food Reviews</h1>
+        <div class="logodiv">
+            <img class="logo" src="images/logo.png" alt="logo">
         </div>
-        <div style="background-color: gray">
-          <a href="#about">About</a>
-          <a href="#news" style="padding: 22%"><strong>Add Review</strong></a>
-          <input type="text" placeholder="Search..">
-        </div>
+        <nav style="background-color: gray">
+            <ul>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/index.html">Review Feed</a></li>
+                <li><a href="#news">Add Review</a></li>
+                <li><input type="text" placeholder="Search.."></li>
+            </ul>
+        </nav>
         <hr>
         
         <div>
-            <img src="images/poke.jpg" alt="Poke Bowl" style="width:400px;height:400px">
-            <img src="images/heart.png" alt="Heart" style="width:50px;height:50px">
+            <img class="review" src="images/poke.jpg" alt="Poke Bowl" style="width:400px;height:400px">
+            <img class="like" src="images/heart.png" alt="Heart" style="width:50px;height:50px">
             <h3>Poke Bowl <span style="float: right;">Piki Poke, Hoboken, NJ</span></h3>
             <h5>Review By: Cindy Tran</h5>
             <p>The fish in the poke bowl is very fresh. Love the various sauce options 
@@ -30,7 +34,7 @@
         <hr>
 
         <div>
-            <img src="images/mcnuggets.jpg" alt="McDonalds Nuggets" style="width:400px;height:400px">
+            <img class="review" src="images/mcnuggets.jpg" alt="McDonalds Nuggets" style="width:400px;height:400px">
             <h3>McDonalds Chicken Nuggets<span style="float: right;">McDonalds, Hoboken, NJ</span></h3>
             <h5>Review By: Cindy Tran</h5>
             <p>The chicken nuggets are alright. Pretty crispy but what makes it good are the sauces you can 
