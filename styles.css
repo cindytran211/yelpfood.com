@@ -1,3 +1,11 @@
+body {
+    background-color: black;
+}
+
+h1, h3, h5{
+    color: #fed5e7;
+}
+
 nav{
     height:48px
 }
@@ -61,7 +69,7 @@ p{
 .like{
     border-style: none !important;
     position: absolute;
-    bottom: 0;
+    bottom: 35px;
     right: 5;
 }
 
