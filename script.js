@@ -15,3 +15,14 @@ function changeImageSource(id){
         imageElement.src = "images/fullheart.png";
     }
 }
+function showComments(commentSource){
+    var comment = document.getElementsByClassName(commentSource);
+    for (i = 0; i < comment.length; i++){
+        element = comment[i];
+        if (element.style.visibility == "visible"){
+            element.style.visibility = "hidden";
+        }else{
+            element.style.visibility = "visible";
+        }
+    }
+}

@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(59, 57, 57);
 }
 
 h1, h3, h5{
@@ -39,6 +39,7 @@ h1{
     text-align: center;
     
 }
+
 .banner{
     width:100%;
     height:400px;
@@ -56,6 +57,9 @@ p{
     color: #ae9dea;
     font-weight: bolder;
 }
+.review-container{
+    align-items: center;
+}
 .review{
     display: block;
     margin-left: auto;
@@ -66,9 +70,15 @@ p{
     border-style:solid;
     position: relative;
 }
+.overlay{
+    position: relative;
+    display: inline;
+}
 .like{
     border-style: none !important;
     margin-left: auto;
+    width: 50px;
+    height: 50px;
 }
 
 nav{
@@ -78,11 +88,6 @@ nav{
 .review{
     width: 400px;
     height: 400px;
-}
-
-.like{
-    width: 50px;
-    height: 50px;
 }
 
 .restaurant{
@@ -105,4 +110,11 @@ span{
 .likepic{
     width:50px;
     height: 50px;
+}
+.commentpic{
+    width: 50px;
+    height: 50px;
+}
+.commenters{
+    visibility: hidden;
 }
